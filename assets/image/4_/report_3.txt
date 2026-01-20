@@ -1,0 +1,30 @@
+# -- Estimate emails per user in each segment
+
+📊 EMAIL VOLUME & USER PRESSURE INSIGHTS
+    =========================================
+    
+    🎯 KEY FINDINGS FOR 10 SEGMENTS:
+    
+    1. VOLUME LEADERS:
+       • "Recent Registration + 1M" leads with 647K emails (35.9% of total)
+       • Total monthly volume across all segments: 1804K emails
+       • Volume range: 75K to 647K
+    
+    2. FREQUENCY ANALYSIS:
+       • Highest campaign frequency: "Recent Registration + 1M" (8 campaigns)
+       • Average campaigns per segment: 3.9
+       • Days utilization: 12.3% of available days
+    
+    3. INTENSITY METRICS:
+       • Highest daily volume: "6 Month Clickers" (108K emails/day)
+       • Average emails per campaign: 45.6K
+       • Estimated weekly volume per segment: 338.0K average
+    
+    4. PRESSURE ASSESSMENT:
+       • Highest pressure segment: "Recent Registration + 1M" (Index: 92.5%)
+       • Pressure levels: {'NO DATA': 10}
+       • Average pressure index: 39.2%
+...
+       • Develop segment-specific frequency rules based on pressure indices
+       • Create A/B testing framework for send time optimization
+       • Establish alerts for segments approaching critical pressure thresholds

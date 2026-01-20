@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS records.segments (
+    segment_id            INTEGER PRIMARY KEY,
+    segment_name          TEXT,
+    segment_folder        TEXT,
+    logic_type            TEXT,
+    filter_1_type         TEXT,
+    filter_1_rule         TEXT,
+    filter_1_values       TEXT,
+    connector_1           TEXT,
+    filter_2_type         TEXT,
+    filter_2_rule         TEXT,
+    filter_2_values       TEXT,
+    connector_2           TEXT,
+    or_filter_1_type      TEXT,
+    or_filter_1_rule      TEXT,
+    or_filter_1_values    TEXT,
+    or_filter_2_type      TEXT,
+    or_filter_2_rule      TEXT,
+    or_filter_2_values    TEXT,
+    uses_engagement       BOOLEAN DEFAULT FALSE,
+    uses_date_rule        BOOLEAN DEFAULT FALSE,
+    notes                 TEXT
+);

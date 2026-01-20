@@ -1,0 +1,31 @@
+# -- 6. Combined summary for segment volume estimation
+
+====================================================================================================
+PERFORMANCE & RISK ASSESSMENT INSIGHTS
+====================================================================================================
+
+📊 PERFORMANCE SUMMARY:
+   • Average Delivery Rate: 99.93%
+   • Average Open Rate: 17.87%
+   • Segments Above Industry Open Rate (20%): 8/34
+   • Segments with High Delivery (≥99%): 34/34
+
+⚠️  RISK ASSESSMENT:
+   • Average Risk Score: 20.4/100
+   • Health Index Average: 65.4/100
+   • Low Risk: 25 segments (74%)
+   • Medium Risk: 9 segments (26%)
+
+🏆 TOP PERFORMERS:
+   • Highest Open Rate: ID 150 (5 days recent engagement) - 31.36%
+   • Highest Volume: ID 97 - 3,765,580 total sends
+   • Most Campaigns: ID 150 - 63 campaigns
+
+⚠️  AREAS OF CONCERN:
+   1. LOW OPEN RATES: 26 segments below industry average:
+      • ID 97: 16.56% (needs +3.44%)
+...
+
+====================================================================================================
+ANALYSIS COMPLETE
+====================================================================================================

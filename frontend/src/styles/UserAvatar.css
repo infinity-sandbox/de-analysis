@@ -1,0 +1,61 @@
+.user-avatar-button {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background: white;
+}
+
+.user-avatar-button:hover {
+  border-color: #1890ff;
+  background: #f5f5f5;
+}
+
+.user-avatar-trigger {
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.user-avatar-trigger:hover {
+  border-color: #1890ff;
+  background: #f5f5f5;
+}
+
+.user-avatar-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.user-dropdown-menu {
+  min-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-dropdown-menu .user-info {
+  padding: 4px 0;
+}
+
+.user-dropdown-menu .user-email {
+  font-weight: 600;
+  color: #333;
+}
+
+.user-dropdown-menu .user-name {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.user-avatar-dropdown .ant-dropdown-menu-item {
+  padding: 8px 16px;
+}
+
+.user-avatar-dropdown .ant-dropdown-menu-item:hover {
+  background-color: #f5f5f5;
+}

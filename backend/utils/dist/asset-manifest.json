@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40e1ca75.css",
+    "main.js": "/static/js/main.cf873a4a.js",
+    "static/js/453.d855a71b.chunk.js": "/static/js/453.d855a71b.chunk.js",
+    "static/media/daycarefinal.svg": "/static/media/daycarefinal.c897ad3cc2a2c4a9daa1.svg",
+    "static/media/registration.png": "/static/media/registration.344f5d1397d5d80699f7.png",
+    "index.html": "/index.html",
+    "main.40e1ca75.css.map": "/static/css/main.40e1ca75.css.map",
+    "main.cf873a4a.js.map": "/static/js/main.cf873a4a.js.map",
+    "453.d855a71b.chunk.js.map": "/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40e1ca75.css",
+    "static/js/main.cf873a4a.js"
+  ]
+}

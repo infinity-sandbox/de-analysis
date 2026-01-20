@@ -1,0 +1,32 @@
+# -- Simple analysis of segment overlap and exposure
+
+
+================================================================================
+BUSINESS INSIGHTS & STRATEGIC RECOMMENDATIONS
+================================================================================
+
+    📊 CAMPAIGN OVERLAP & SAME-DAY SEND EXCLUSION ANALYSIS
+    =======================================================
+    
+    🎯 KEY FINDINGS:
+    
+    1. CAMPAIGN VOLUME:
+       • Total segments analyzed: 47
+       • Highest volume segment: "DO NOT SEND GAMBLING" (106 campaigns)
+       • Average campaigns per segment: 15.1
+       • Range: 1 to 106 campaigns
+    
+    2. CAMPAIGN INTENSITY:
+       • Most intense segment: "6 Month Clickers" (1.21 campaigns/day)
+       • Average campaigns per day: 1.02
+       • Maximum daily campaigns: 3 (segment: Recent Registration + 1M)
+    
+    3. OVERLAP ANALYSIS:
+       • Highest overlap segment: "6 Month Clickers" (21.4% days with overlap)
+       • Average overlap percentage: 1.9%
+       • Total days with overlap across segments: 36
+...
+
+Exclusions Needed by Type:
+  • None: 42 segments
+  • Same-day exclusion: 5 segments

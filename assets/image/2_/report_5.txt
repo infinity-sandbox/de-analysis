@@ -1,0 +1,33 @@
+# -- Which clients use each segment
+
+
+================================================================================
+CLIENT-SEGMENT RELATIONSHIP ANALYSIS
+================================================================================
+
+📊 OVERVIEW METRICS:
+   • Total Client-Segment Relationships: 185
+   • Total Unique Clients: 43
+   • Total Unique Segments: 47
+   • Average Segments per Client: 4.3
+   • Average Clients per Segment: 3.9
+
+🏷️ SEGMENT CATEGORIES:
+   • EXCLUSIVE: 21 segments (44.7%)
+   • STANDARD: 16 segments (34.0%)
+   • WIDELY_ADOPTED: 10 segments (21.3%)
+
+🔒 EXCLUSIVE SEGMENTS:
+   • 21 segments used by only one client
+   • Exclusive segments account for 21.4% of all campaigns
+   • Top clients with exclusive segments:
+     - Little Star Media: 4 exclusive segments
+     - HeyPiggy (Jul25 Creative): 2 exclusive segments
+     - Clickwork7: 2 exclusive segments
+
+🌐 WIDELY ADOPTED SEGMENTS:
+...
+   • Broad adoption: Segments typically used by multiple clients
+   • Weak relationships: Low engagement with used segments
+
+================================================================================

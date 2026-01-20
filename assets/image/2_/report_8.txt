@@ -1,0 +1,31 @@
+# -- Classify segments based on usage patterns
+
+==========================================================================================
+DYNAMIC INSIGHTS GENERATED FROM CLASSIFICATION DATA
+==========================================================================================
+
+📊 CLASSIFICATION OVERVIEW:
+   • 8/47 segments (17%) are classified as CORE
+   • 8/47 segments (17%) show HIGH FATIGUE RISK
+   • 47/47 segments (100%) are APPROPRIATELY UTILIZED
+   • 13/47 segments (28%) show STRATEGIC usage
+
+🎯 PERFORMANCE ANALYSIS:
+   • Average Open Rate: 0.2% | Average Unsubscribe Rate: 24.45 basis points
+   • BEST PERFORMER: Segment 150 (5 days recent engagement...) - 0.3% open rate
+   • WORST PERFORMER: Segment 145 (clicked squirl...) - 0.1% open rate
+   • MOST EFFICIENT: Segment 39 - Open/Unsub ratio: 139.9
+
+👥 CLIENT ADOPTION INSIGHTS:
+   • Segment 150 reaches 21 unique clients (highest adoption)
+   • Segment 161 runs 1.2 campaigns per day (highest frequency)
+   • 24 segments have been active all 4 months (high consistency)
+
+⚠️  RISK ASSESSMENT:
+   • 5 segments combine HIGH FATIGUE with above-average unsubscribe rates:
+     ⚠️  ID 94: 25.62 bps unsub rate
+...
+      • Widest Reach: Segment 150 (21 clients)
+      • Most Efficient: Segment 39 (Open/Unsub ratio: 139.9)
+
+==========================================================================================

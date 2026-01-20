@@ -1,0 +1,33 @@
+# -- 5. Segment reachability analysis
+
+
+
+====================================================================================================
+PERFORMANCE & HEALTH INSIGHTS
+====================================================================================================
+
+📊 PERFORMANCE SUMMARY:
+   • Delivery Excellence: 34/34 segments with ≥99% delivery
+   • Open Rate Performance: 8/34 segments meet industry average (20%)
+   • Click Rate Performance: 33/34 segments with ≥0.5% click rate
+
+🏆 TOP PERFORMERS:
+   • Highest Open Rate: ID 150 (5 days recent engagement) - 31.36%
+   • Highest Click Rate: ID 177 (Clicked Tesco YouSweep) - 3.73%
+   • Most Campaigns: ID 150 (5 days recent engagement) - 63 campaigns
+
+⚠️  HEALTH ASSESSMENT:
+   • 34 segments require immediate attention:
+     ⚠️  ID 50: Sent atleast 20 emails... - Health: Requires Attention
+     ⚠️  ID 52: Not in YFS List... - Health: Requires Attention
+     ⚠️  ID 150: 5 days recent engagement... - Health: Requires Attention
+     ⚠️  ID 92: Gaming Interest... - Health: Requires Attention
+     ⚠️  ID 179: Clicked Gaming... - Health: Requires Attention
+     ⚠️  ID 185: Clicked Captain... - Health: Requires Attention
+     ⚠️  ID 132: clicked pickmypostcode... - Health: Requires Attention
+     ⚠️  ID 163: Has FLUENT ID... - Health: Requires Attention
+...
+
+====================================================================================================
+ANALYSIS COMPLETE
+====================================================================================================

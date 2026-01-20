@@ -1,0 +1,31 @@
+# -- Analyze engagement by campaign type (inferred from name)
+
+====================================================================================================
+CAMPAIGN TYPE PERFORMANCE ANALYSIS - BUSINESS INSIGHTS
+====================================================================================================
+
+📊 EXECUTIVE SUMMARY:
+--------------------------------------------------
+• Total Campaigns Analyzed: 925
+• Number of Campaign Types: 10
+• Weighted Average Open Rate: 24.25%
+• Weighted Average Click Rate: 2.49%
+• Weighted Average Unsubscribe Rate: 0.2454%
+• Weighted Average Delivery Rate: 99.546%
+
+🏆 PERFORMANCE LEADERS:
+--------------------------------------------------
+• Best Open Rate: 'Transactional' - 40.20%
+• Best Click Rate: 'Abandoned Cart' - 4.20%
+• Lowest Unsubscribe Rate: 'Transactional' - 0.0800%
+• Best Delivery Rate: 'Transactional' - 99.990%
+
+📈 CAMPAIGN TYPE COMPARISON:
+--------------------------------------------------
+• Open Rate Range: 15.20% to 40.20% (164.5% difference)
+• Click Rate Range: 1.200% to 4.200% (250.0% difference)
+...
+
+====================================================================================================
+END OF CAMPAIGN TYPE PERFORMANCE ANALYSIS
+====================================================================================================

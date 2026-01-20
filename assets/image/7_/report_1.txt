@@ -1,0 +1,33 @@
+# -- Estimate new registrations from recent registration segments
+
+
+================================================================================
+DATA DECAY & LIFECYCLE ANALYSIS INSIGHTS
+================================================================================
+
+📊 REGISTRATION ANALYSIS:
+   • Average monthly registrations: 29,781 users
+   • Total new users in period: 119,123 users
+   • Average conversion rate: 2.91%
+   • Growth rate: -29.0% over the period
+
+📉 USER DECAY INSIGHTS:
+   • Estimated 30-day active rate: 85% of new registrations
+   • Estimated 90-day retention: 55% of original cohort
+   • Estimated 180-day retention: 35% of original cohort
+   • Average user lifespan: 5.6 months
+
+📈 NET LIST GROWTH:
+   • Current active user base estimate: 51,059 users
+   • Monthly decay rate: ~25% of 3-month-old cohort
+   • Net growth rate (after decay): 65.3%
+
+🎯 OPTIMIZATION RECOMMENDATIONS:
+   1. SUPPRESSION WINDOW: Users inactive for 6+ months show <20% engagement
+   2. RE-ENGAGEMENT: Target 3-4 month old users before decay accelerates
+   3. PEAK VALUE: Maximum commercial value achieved at 6 months user age
+...
+
+⚠️  WARNING: These insights include simulated data for demonstration.
+   Replace simulated decay patterns with actual cohort analysis data.
+================================================================================

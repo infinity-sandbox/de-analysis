@@ -1,0 +1,33 @@
+# -- Determine optimal suppression and cooldown rules
+
+
+========================================================================================================================
+SEGMENT PERFORMANCE & RULE OPTIMIZATION ANALYSIS
+========================================================================================================================
+
+📊 SEGMENT OVERVIEW:
+   • Total segments analyzed: 3
+   • Segments with engagement/date rules: 0 (0.0%)
+   • Segments without any rules: 3 (100.0%)
+
+📈 ENGAGEMENT METRICS:
+   • Average open rate across all segments: 14.92%
+   • Average click rate across all segments: 1.517%
+   • Average unsubscribe rate: 0.191%
+   • Average delivery rate: 99.92%
+   • Segments with delivery rate < 99.5%: 0
+
+⚙️  RULE CONFIGURATION ANALYSIS:
+   • Segments using engagement rules: 0
+   • Segments using date rules: 0
+
+🎯 OPTIMIZATION OPPORTUNITIES:
+   • Segments needing 'Not opened in 30 days' rule: 3
+   • Segments recommended for cooldown: 3
+
+🏆 TOP PERFORMING SEGMENTS:
+...
+   • HIGH PRIORITY: Segments with no rules AND <15% engagement (3 segments)
+   • MEDIUM PRIORITY: Segments with only one type of rule AND <20% engagement
+   • LOW PRIORITY: Segments with both rules OR >20% engagement
+========================================================================================================================

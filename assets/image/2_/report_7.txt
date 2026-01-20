@@ -1,0 +1,40 @@
+# -- Track how frequently same segment is used on consecutive days
+
+======================================================================
+SEGMENT USAGE & FREQUENCY ANALYSIS DASHBOARD
+======================================================================
+
+Total Segments Analyzed: 3
+Date Range: 198 total campaign days
+----------------------------------------------------------------------
+
+
+
+======================================================================
+ANALYTICAL INSIGHTS
+======================================================================
+
+📊 KEY FINDINGS:
+   • Average Segment Usage: 66.0 days
+   • Average Consecutive Usage: 62.3%
+
+🚨 FATIGUE RISK ASSESSMENT:
+   • 1 segment(s) show high fatigue risk (>70% consecutive usage):
+     - DO NOT SEND GAMBLING (ID: 94) - 79.3% consecutive usage
+
+🎯 CORE SEGMENTS (Heavily Used):
+   • All segments show moderate usage levels
+
+💡 USAGE PATTERN ANALYSIS:
+   • 3 out of 3 segments (100%) show habitual/automated usage patterns
+
+📈 RECOMMENDATIONS:
+   1. Monitor Segment 94 for potential fatigue - 79.3% consecutive usage
+   2. Review automation rules for habitual use segments
+   3. Consider rotating segments with >50% consecutive usage
+   4. Explore opportunities to increase usage of lower-frequency segments
+...
+
+======================================================================
+DETAILED SEGMENT ANALYSIS
+======================================================================

@@ -1,0 +1,31 @@
+# Analyze if frequency aligns with engagement and revenue
+
+================================================================================
+EMAIL EFFECTIVENESS & REVENUE JUSTIFICATION ANALYSIS
+================================================================================
+
+📊 OVERVIEW METRICS:
+   • Total Clients Analyzed: 22
+   • Total Campaigns: 307.0
+   • Total Emails Sent: 8,288,185
+   • Total Revenue Generated: $59,877.35
+   • Average Open Rate: 21.32%
+   • Average Click Rate: 2.231%
+   • Average Campaigns per Day: 1.009
+   • Average Revenue per Campaign: $182.64
+
+📈 FREQUENCY ANALYSIS:
+   • Campaigns/Day Ratio Range: 1.00 - 1.09
+   • Average Ratio: 1.01
+   • Most Frequent Sender: Magnetise (1.091 campaigns/day)
+   • Least Frequent Sender: Clickwork7 (1.000 campaigns/day)
+
+📊 VOLUME ANALYSIS:
+   • Largest Email Volume: Sovendus (915,028 emails)
+   • Smallest Email Volume: Best New Spins (Apr25) (Batched) (64,228 emails)
+   • Volume Difference: 14.2x
+...
+   • Overall email efficiency: $0.007224 per email
+   • Opportunity: Focus on increasing revenue per email across all clients
+
+================================================================================

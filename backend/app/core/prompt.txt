@@ -1,0 +1,299 @@
+I want you to write PostgreSQL-compatible SQL queries to answer the analysis questions I’ll provide.
+
+I’ll also share sample data from the actual tables (the first 3 rows) so you 
+can understand the structure and data types. There are two tables campaign data and segment data.
+
+
+campaign data
+
+CREATE TABLE IF NOT EXISTS records.email_campaigns (
+    campaign_id              INTEGER PRIMARY KEY,
+    campaign_name            TEXT,
+    audience_segment_a       TEXT,
+    audience_segment_b       TEXT,
+    name_from                TEXT,
+    sending_date             DATE,
+    daily_revenue            NUMERIC(12,2) DEFAULT 0.0,
+    subject                  TEXT,
+    sent                     INTEGER DEFAULT 0,
+    non_delivered            INTEGER DEFAULT 0,
+    hard_bounces             INTEGER DEFAULT 0,
+    soft_bounces             INTEGER DEFAULT 0,
+    non_delivered_rate       NUMERIC(8,6) DEFAULT 0.0,
+    delivered                INTEGER DEFAULT 0,
+    total_opens              INTEGER DEFAULT 0,
+    opens                    INTEGER DEFAULT 0,
+    trackable_open_rate      NUMERIC(8,6) DEFAULT 0.0,
+    apple_mpp_opens          INTEGER DEFAULT 0,
+    total_clicked            INTEGER DEFAULT 0,
+    clicked                  INTEGER DEFAULT 0,
+    click_rate               NUMERIC(8,6) DEFAULT 0.0,
+    click_to_open_rate       NUMERIC(8,6) DEFAULT 0.0,
+    unsubscribed             INTEGER DEFAULT 0,
+    unsubscription_rate      NUMERIC(8,6) DEFAULT 0.0,
+    delivered_rate           NUMERIC(8,6) DEFAULT 0.0,
+    hard_bounces_rate        NUMERIC(8,6) DEFAULT 0.0,
+    soft_bounces_rate        NUMERIC(8,6) DEFAULT 0.0,
+    complaints               INTEGER DEFAULT 0,
+    complaints_rate          NUMERIC(8,6) DEFAULT 0.0,
+    audience_segment_a_ids   JSONB DEFAULT '[]'::jsonb,
+    audience_segment_b_ids   JSONB DEFAULT '[]'::jsonb
+);
+
+-- Sample Data for email_campaigns
+
+campaign_id,Campaign Name,audience_segment_a,audience_segment_b,Name from,Sending date,Daily revenue,Subject,Sent,Non delivered,Hard bounces,Soft bounces,Non delivered rate,Delivered,Total opens,Opens,Trackable open rate,Apple MPP Opens,Total clicked,Clicked,Click rate,Click-to-Open rate,Unsubscribed,Unsubscription rate,Delivered rate,Hard Bounces rate,Soft Bounces rate,Complaints,Complaints rate,Audience Segment A IDs,Audience Segment B IDs
+1806,Fluent - RewardsGiant £750 Tesco (Day Batched Send),"96 - recent registration & 3 month clickers,117 - Registered past month","163 - Has FLUENT ID,98 - opened 5 + never clicked",750 Tesco Reward Via Your Freebie Style,2025-09-01,360.19,contact.FIRSTNAME }} when was your last Tesco shop?,29279,15,2,14,0.0005,29264,4492,3259,0.1318,4532,828,654,0.0223,0.2007,79,0.0027,0.9995,0.0001,0.0005,2,0.0001,[],[]
+1807,Adstart Media - iPhone 16 (July25) (Batched),97 - Recent registrations + 1 month clickers,"146 - Clicked adstart iphone,98 - opened 5+ never clicked past month",Iphone 16 Via Your Freebie Style,2025-09-01,0.0,contact.FIRSTNAME }} Your iPhone 16 Entry Needs Confirmation,24120,3,0,3,0.0001,24117,5408,3615,0.1762,3596,1006,681,0.0282,0.1884,92,0.0038,0.9999,0.0,0.0001,0,0.0,[],[]
+1809,Little Star Media - Super Free Bingo (April25) (Batched Send),150,"94,183",Your Freebie Style,2025-09-02,463.77,"contact.FIRSTNAME | default : ""Hey ""}} here’s your 10 free spins!",16946,2,0,5,0.0001,16944,6542,4932,0.3285,1932,317,241,0.0141999999999999,0.0489,77,0.0045,0.9999,0.0,0.0003,4,0.0002,[150],"[94, 183]"
+
+
+
+Segment Data
+
+CREATE TABLE IF NOT EXISTS records.segments (
+    segment_id            INTEGER PRIMARY KEY,
+    segment_name          TEXT,
+    segment_folder        TEXT,
+    logic_type            TEXT,
+    filter_1_type         TEXT,
+    filter_1_rule         TEXT,
+    filter_1_values       TEXT,
+    connector_1           TEXT,
+    filter_2_type         TEXT,
+    filter_2_rule         TEXT,
+    filter_2_values       TEXT,
+    connector_2           TEXT,
+    or_filter_1_type      TEXT,
+    or_filter_1_rule      TEXT,
+    or_filter_1_values    TEXT,
+    or_filter_2_type      TEXT,
+    or_filter_2_rule      TEXT,
+    or_filter_2_values    TEXT,
+    uses_engagement       BOOLEAN DEFAULT FALSE,
+    uses_date_rule        BOOLEAN DEFAULT FALSE,
+    notes                 TEXT
+);
+
+-- Sample Data for segments
+
+Segment ID,Segment Name,Segment Folder,Logic Type,Filter 1 Type,Filter 1 Rule,Filter 1 Values,Connector 1,Filter 2 Type,Filter 2 Rule,Filter 2 Values,Connector 2,OR Filter 1 Type,OR Filter 1 Rule,OR Filter 1 Values,OR Filter 2 Type,OR Filter 2 Rule,OR Filter 2 Values,Uses Engagement,Uses Date Rule,Notes
+39,Added 30 days never opened,Segments,AND,Creation Date,In The Last,1 month,NONE,None,None,None,NONE,NONE,none,NONE,NONE,No,Yes,False,False,
+50,Sent atleast 20 emails,Segments,AND,Email Sent,At Least,20 times in the last 3 months,NONE,None,None,None,NONE,NONE,none,NONE,NONE,Yes,Yes,False,False,
+52,Not in YFS List,Segments,AND,Member Of A List,Not A Member Of,YFS (ALL USERS) #2,NONE,None,None,None,NONE,NONE,none,NONE,NONE,No,No,False,False,
+
+
+
+
+and this is the analysis qustions and business question i want to be answered using sql queries
+
+OBJECTIVE
+
+Email Frequency, Segment Usage & Volume Analysis 
+Objective
+To clearly understand how often emails are sent, to which clients and segments, and at what volume, and to analyse whether current sending patterns are commercially efficient, sustainable, and deliverability-safe.
+This analysis must work even where segment size and user-level data is incomplete, using inferred volumes and educated assumptions.
+
+
+
+1. Client-Level Email Frequency Analysis
+
+What to Analyse
+For each client:
+Number of email campaigns sent:
+
+Per day
+Per week
+Per month
+
+Consistency of sending patterns (e.g. fixed daily cadence vs irregular bursts)
+
+Total monthly email volume sent by the client
+
+How to Analyse
+Group campaigns by client and date
+Count total sends per day and average over time
+Identify peak days and sustained high-frequency periods
+
+Insights Required
+Which clients are sending most aggressively
+Whether frequency aligns with engagement and revenue
+Whether frequency differs meaningfully between clients without justification
+
+
+
+2. Segment Usage & Frequency Analysis
+What to Analyse
+For each segment:
+How often it is used across campaigns:
+
+Daily
+Weekly
+Monthly
+
+Which clients use the segment
+Whether it is used alone or combined with exclusions
+
+How to Analyse
+Map each campaign to included and excluded segments
+Count segment appearances across all campaigns
+Track how frequently the same segment is hit over consecutive days
+
+Insights Required
+Identification of:
+
+Core (heavily used) segments
+Fatigue-risk segments
+Underutilised segments
+Whether segments are being used intentionally or by habit
+
+
+3. Segment Volume Estimation & Validation
+What to Analyse
+Estimated size of each segment
+Proportion of the total list each segment represents
+Changes in segment volume over time
+
+How to Analyse
+Where segment sizes are not directly available, infer volumes by:
+Comparing send volumes across campaigns using:
+
+The same segment
+Variations of the same segment with exclusions
+Identifying consistent volume baselines for each segment
+
+Validating estimates against:
+
+Total list size
+Monthly registrations
+Inactive rules
+
+Insights Required
+Reliable estimated size per segment
+
+Detection of:
+
+Unexpected volume drops or spikes
+Silent segment logic changes
+Understanding of how much of the list is reachable at any given time
+
+
+4. Volume Sent per Segment & User Pressure
+What to Analyse
+For each segment:
+Total emails sent:
+
+Per day
+Per week
+Per month
+
+Average emails per user within the segment
+
+How to Analyse
+Multiply campaign frequency by estimated segment size
+Track cumulative exposure over time
+
+Insights Required
+Identification of over-emailed segments
+Segments carrying disproportionate monetisation load
+Where reduced frequency may increase total long-term revenue
+
+
+5. Segment Overlap & User-Level Exposure
+What to Analyse
+Overlap between segments across campaigns
+
+Frequency at which a single user could receive multiple emails in one day
+Cross-client overlap where applicable
+
+How to Analyse
+Compare segment inclusion patterns across campaigns
+Identify repeated inclusion of the same segments on the same days
+
+Insights Required
+Hidden over-emailing risks
+Deliverability and complaint exposure
+Need for frequency caps or smarter exclusions
+
+
+
+6. Engagement & Decay Analysis
+What to Analyse
+Open rate and click rate trends by:
+
+Client
+Segment
+Campaign type
+Frequency level
+Engagement decay as email pressure increases
+
+How to Analyse
+Correlate frequency and volume with engagement metrics
+
+Identify:
+
+Breakpoints where engagement drops sharply
+Campaign types that damage next-day performance
+
+Insights Required
+Safe frequency ranges per segment
+When recovery (high-engagement) emails are required
+Which segments tolerate higher frequency vs those that do not
+
+
+
+7. Data Decay & Lifecycle Impact
+What to Analyse
+New registrations (~20,000 per month)
+
+Rate at which users:
+
+Stop opening
+Stop clicking
+Move to inactive
+Net list growth vs decay
+
+How to Analyse
+Compare registrations vs active volumes over time
+Model typical user lifespan
+Assess commercial value by user age
+
+Insights Required
+Realistic view of usable list size
+When users should be suppressed or cooled down
+Whether current active/inactive rules are optimal
+
+
+8. Final Outputs Required
+The analysis must produce:
+Per Client
+Emails sent per day/week/month
+
+Total monthly volume
+
+Engagement and revenue efficiency indicators
+
+Per Segment
+Estimated size
+% of total list
+
+Emails per user per week/month
+Engagement performance
+
+Risk rating (low / medium / high fatigue)
+
+Strategic Conclusions
+Which clients and segments are:
+
+Over-emailed
+Under-utilised
+Carrying excessive revenue pressure
+
+Clear, data-led recommendations for:
+Frequency caps
+Segment rotation
+Engagement recovery sequencing
+
+
+
+Now give me PostgreSQL-compatible SQL queries for the insight.

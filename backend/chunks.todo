@@ -1,0 +1,13 @@
+✔ this is the main task @started(25-09-28 01:19) @done(25-09-28 01:19) @lasted(58s)
+✘ this is other @cancelled(25-09-28 01:15)
+✔ this is subtask @started(25-09-28 01:17) @done(25-09-28 01:17) @lasted(9s)
+✔ this is other task @started(25-09-28 01:17) @done(25-09-28 01:17) @lasted(15s)
+✘ lksjdf a @cancelled(25-09-28 01:17)
+✔ lsdjflakfj @started(25-09-28 01:17) @done(25-09-28 01:17) @lasted(21s)
+✔ kasjdf @started(25-09-28 01:17) @done(25-09-28 01:17) @lasted(25s)
+Stuff:
+    ✔ this is task one @started(25-09-28 01:46) @done(25-09-28 01:48) @lasted(2m19s)
+    ☐ this is task two
+    ☐ this is task three
+    ☐ this is task four
+    

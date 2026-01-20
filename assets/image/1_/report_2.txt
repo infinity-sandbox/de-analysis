@@ -1,0 +1,32 @@
+## Query 2: Weekly Campaigns per Client Analysis
+### Analysis Title: Weekly Email Campaign Patterns and Client Sending Behavior
+
+====================================================================================================
+WEEKLY FREQUENCY ANALYSIS - KEY INSIGHTS
+====================================================================================================
+📊 OVERVIEW:
+   • Total weeks analyzed: 19
+   • Total campaigns sent: 352
+   • Average campaigns per week: 1.3
+
+🏆 TOP PERFORMERS (by average weekly campaigns):
+   1. Fluent: 1.8 campaigns/week
+   2. Magnetise: 1.7 campaigns/week
+   3. YFS: 1.7 campaigns/week
+
+📈 FREQUENCY DISTRIBUTION:
+   • Low Weekly Frequency: 278 weeks (99.3%)
+   • Medium Weekly Frequency: 2 weeks (0.7%)
+
+📅 PEAK ACTIVITY:
+   • Peak week: 2025-09-29
+   • Client: Magnetise
+   • Campaigns: 4
+   • Total sent: 51,538
+
+🎯 CONSISTENCY ANALYSIS:
+   • Most consistent: LoudingAds (CV: 0.00)
+...
+     - FreeClub £25 ASDA (Aug25) (SUBT Excl) (1.3 campaigns/week)
+   • AVERAGE CAMPAIGN SIZE: 26,799 emails per campaign
+====================================================================================================

@@ -1,0 +1,27 @@
+# Identify peak sending days for each client
+
+
+================================================================================
+EMAIL FREQUENCY ANALYSIS INSIGHTS
+================================================================================
+
+📊 CLIENT: Fluent
+   • Average daily campaigns: 2.00
+   • Average daily emails sent: 96,013
+   • Peak daily volume: 96,013 emails
+   • Active days analyzed: 1
+   • Sending pattern: Highly variable/Bursty
+
+📊 CLIENT: Magnetise
+   • Average daily campaigns: 2.00
+   • Average daily emails sent: 37,031
+   • Peak daily volume: 37,031 emails
+   • Active days analyzed: 1
+   • Sending pattern: Highly variable/Bursty
+
+📊 CLIENT: Sovendus
+   • Average daily campaigns: 2.00
+   • Average daily emails sent: 99,466
+   • Peak daily volume: 99,466 emails
+   • Active days analyzed: 1
+   • Sending pattern: Highly variable/Bursty

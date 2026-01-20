@@ -1,0 +1,32 @@
+# -- Find segments used by multiple clients on the same day
+
+
+================================================================================
+BUSINESS INSIGHTS & STRATEGIC RECOMMENDATIONS
+================================================================================
+
+    📊 CLIENT-SEGMENT USAGE PATTERNS ANALYSIS
+    ==========================================
+    
+    🎯 KEY FINDINGS:
+    
+    1. OVERALL ACTIVITY:
+       • Total days analyzed: 27
+       • Total unique segments: 7
+       • Total unique clients: 28
+       • Average clients per day: 2.7
+       • Average campaigns per day: 2.7
+       • Average segments active per day: 1.3
+    
+    2. SEGMENT PERFORMANCE:
+       • Most popular segment: "DO NOT SEND GAMBLING"
+         - Used by 26 total unique clients
+         - Generated 26 total campaigns
+         - Average 2.2 clients per day
+    
+    3. CLIENT BEHAVIOR:
+...
+================================================================================
+ Clients per Segment Day  Count  Percentage
+                       2     29        85.3
+                       3      5        14.7

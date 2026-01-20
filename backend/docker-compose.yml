@@ -1,0 +1,63 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data 
+    networks:
+      - backend_network
+
+  postgres:
+    image: postgres:17
+    container_name: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: auth_user
+      POSTGRES_PASSWORD: auth_password
+      POSTGRES_DB: auth_db
+    ports:
+      - "5433:5432"  # 👈 host port 5433 → container port 5432
+    expose:
+      - 5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - backend_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U auth_user -d auth_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    container_name: backend
+    build:
+      context: ./
+      dockerfile: dockerfile.backend
+    image: backend:latest
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./.env
+    environment:
+      - REDIS_HOST=redis     
+      - REDIS_PORT=6379
+      - AUTH_DB_HOST=postgres
+      - AUTH_DB_PORT=5432
+      - AUTH_DB_USER=auth_user
+      - AUTH_DB_PASSWORD=auth_password
+      - AUTH_DB=auth_db
+    networks:
+      - backend_network
+
+networks:
+  backend_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:

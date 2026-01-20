@@ -1,0 +1,60 @@
+/* Mobile styles */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 16px;
+  }
+  
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .dashboard-header-card .ant-card-body {
+    padding: 16px;
+  }
+  
+  .welcome-card {
+    padding: 16px;
+    margin: 10px;
+  }
+  
+  .feature-card {
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+  
+  .ant-row {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .ant-col {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  /* Adjust chart sizes for mobile */
+  .recharts-wrapper {
+    transform: scale(0.9);
+    transform-origin: left top;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .dashboard-container {
+    padding: 20px;
+  }
+  
+  .welcome-card {
+    max-width: 900px;
+  }
+}
+
+/* Large desktop styles */
+@media (min-width: 1200px) {
+  .dashboard-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,27 @@
+# -- Daily emails sent per segment
+
+
+====================================================================================================
+VOLUME & USER PRESSURE INSIGHTS
+====================================================================================================
+
+📊 VOLUME ANALYSIS:
+   • Total Daily Volume Analyzed: 13,018,100
+   • Total Campaigns: 330
+   • Average Daily Volume: 42,130
+   • Highest Volume Segment: ID 97 - 3,765,580 total sends
+   • Highest Frequency Segment: ID 161 - 1.21 campaigns/day
+
+💰 MONETIZATION LOAD ANALYSIS:
+   • Top Segment Load: 28.9% of total volume
+   • Top 3 Segments Load: 57.7% of total volume
+   • Load Distribution: Balanced Distribution
+
+⏱️  FREQUENCY ANALYSIS:
+   • ID 50: 1.00 campaigns/day, 30.2 days between sends
+   • ID 52: 1.00 campaigns/day, 121.0 days between sends
+   • ID 71: 1.00 campaigns/day, 121.0 days between sends
+   • ID 89: 1.00 campaigns/day, 30.2 days between sends
+   • ID 92: 1.00 campaigns/day, 15.1 days between sends
+   • ID 94: 1.00 campaigns/day, 11.0 days between sends
+   • ID 97: 1.18 campaigns/day, 2.4 days between sends

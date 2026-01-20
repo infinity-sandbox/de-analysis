@@ -1,0 +1,54 @@
+## Query 3: Monthly Campaigns per Client Analysis
+### Analysis Title: Monthly Email Campaign Patterns and Strategic Sending Insights
+
+
+========================================================================================================================
+MONTHLY FREQUENCY ANALYSIS - KEY INSIGHTS
+========================================================================================================================
+📊 OVERVIEW:
+   • Period Analyzed: 5 months
+   • Total Campaigns: 352
+   • Total Emails Sent: 9,341,774
+   • Average Campaigns per Month: 3.0
+   • Average Emails per Campaign: 25,520
+
+🏆 TOP CLIENTS BY MONTHLY CAMPAIGNS:
+   1. Little Star Media:
+      • Avg campaigns/month: 7.2
+      • Total campaigns: 29
+      • Total emails sent: 545,750
+   2. Fluent:
+      • Avg campaigns/month: 6.8
+      • Total campaigns: 27
+      • Total emails sent: 825,217
+   3. ForYouPromo (FRST Media):
+      • Avg campaigns/month: 6.0
+      • Total campaigns: 24
+      • Total emails sent: 674,254
+   4. SB Digital:
+      • Avg campaigns/month: 5.8
+...
+     - Best month: December (3.8 avg campaigns)
+     - Consider increasing frequency in January
+========================================================================================================================
+
+
+
+========================================================================================================================
+ADDITIONAL BUSINESS INSIGHTS
+========================================================================================================================
+📊 CAMPAIGN EFFICIENCY ANALYSIS:
+   • Most Efficient: Gaming Redirect (cascade)
+     - 73,848 emails per campaign
+     - 1 campaigns, 73,848 total emails
+
+   • Least Efficient: Jupiter Gaming
+     - 6,170 emails per campaign
+     - 2 campaigns, 12,341 total emails
+
+🚀 GROWTH OPPORTUNITIES:
+   • RESOURCE ALLOCATION SUGGESTIONS:
+     - Little Star Media: 7.2 campaigns → 545,750 emails (75,276 emails/campaign)
+     - Fluent: 6.8 campaigns → 825,217 emails (122,254 emails/campaign)
+     - ForYouPromo (FRST Media): 6.0 campaigns → 674,254 emails (112,376 emails/campaign)
+========================================================================================================================

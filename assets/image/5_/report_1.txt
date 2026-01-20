@@ -1,0 +1,32 @@
+# -- Find which segments are used together in the same campaigns
+
+
+================================================================================
+BUSINESS INSIGHTS & STRATEGIC RECOMMENDATIONS
+================================================================================
+
+    📊 SEGMENT OVERLAP & USER-LEVEL EXPOSURE ANALYSIS
+    ==================================================
+    
+    🎯 KEY FINDINGS:
+    
+    1. OVERLAP INTENSITY:
+       • Highest overlap pair: "DO NOT SEND GAMBLING" & "Clicked Gaming" 
+         (35 campaigns together)
+       • Most days together: "DO NOT SEND GAMBLING" & "Clicked Gaming" 
+         (35 days)
+       • Average campaigns together per pair: 4.4
+       • Average days together per pair: 4.4
+    
+    2. FREQUENCY RISKS:
+       • High-risk pairs: 3 (>1.0 campaigns/day)
+       • Medium-risk pairs: 143 (0.5-1 campaigns/day)
+       • Average campaigns per day: 1.00
+       • Highest frequency: "DO NOT SEND GAMBLING" & "Clicked Gaming" 
+         (1.00 campaigns/day)
+    
+...
+  1. User-level daily email count tracking
+  2. Segment overlap alert system
+  3. Client-specific overlap reporting
+  4. Deliverability impact monitoring

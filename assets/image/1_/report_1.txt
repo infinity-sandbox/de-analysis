@@ -1,0 +1,10 @@
+Analysis Title: Daily Campaign Frequency Patterns by Client
+
+================================================================================
+KEY INSIGHTS FROM DAILY FREQUENCY ANALYSIS
+================================================================================
+1. Most Active Client: Magnetise sends an average of 1.1 campaigns per day
+2. Most Common Pattern: 346 days (99.1%) have 'Normal Daily Frequency'
+3. Multiple Campaign Days: 3 days (0.9%) have more than 1 campaign
+4. Weekend vs Weekday: 1.0 campaigns on weekdays vs 1.0 on weekends
+================================================================================

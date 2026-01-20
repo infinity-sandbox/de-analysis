@@ -1,0 +1,32 @@
+Daily usage of each segment
+
+================================================================================
+DAILY SEGMENT USAGE ANALYSIS
+================================================================================
+
+📊 OVERVIEW METRICS:
+   • Total Segments: 47
+   • Date Range: 2025-09-02 to 2025-12-31 (121 days)
+   • Total Campaign-Segment Days: 670
+   • Average Campaigns per Day: 5.9
+
+🏷️ SEGMENT CATEGORIES:
+   • NORMAL: 18 segments (38.3%)
+   • CLIENT_SPECIFIC: 12 segments (25.5%)
+   • CORE: 10 segments (21.3%)
+   • FREQUENT: 7 segments (14.9%)
+
+🏆 CORE SEGMENTS (Top by Usage):
+   • 10 core segments identified
+   • Core segments account for 60.6% of total usage
+   • Top Core Segments:
+     1. DO NOT SEND GAMBLING
+        - 106 total campaigns
+        - 92 days used (1.2 campaigns/day)
+        - Used by 25 client(s)
+     2. 5 days recent engagement
+...
+💡 KEY INSIGHTS SUMMARY:
+   • Broad adoption: Segments used by multiple clients
+
+================================================================================

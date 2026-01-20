@@ -1,0 +1,32 @@
+# --- 1. Basic segment size estimation
+
+
+====================================================================================================
+SEGMENT VOLUME ESTIMATION INSIGHTS
+====================================================================================================
+
+📊 VOLUME ESTIMATION SUMMARY:
+   • Total Estimated Volume Across All Segments: 947,716
+   • Average Segment Size: 27,874
+   • Median Segment Size: 26,107
+   • Largest Segment: ID 180 (Registered 1-4 weeks) - 72,221 contacts
+   • Smallest Segment: ID 163 (Has FLUENT ID) - 8,975 contacts
+
+📈 SEGMENT DISTRIBUTION:
+   • 33 segments have estimated size > 10,000 contacts
+   • 0 segments have estimated size < 5,000 contacts
+   • Top 3 segments represent 18.0% of total volume
+
+⚠️  DATA QUALITY & CONFIDENCE:
+   • 34 segments missing explicit size estimates (using calculated values)
+   • 14 segments have low confidence scores (<60)
+   • Most reliable estimate: ID 150 with 63 campaigns
+
+🔄 VOLUME STABILITY ANALYSIS:
+   • Highest variability: ID 179 (±557.3% range)
+   • 18 segments show high variability (>50%):
+...
+
+====================================================================================================
+ANALYSIS COMPLETE
+====================================================================================================

@@ -1,0 +1,183 @@
+# -- 3. Segment volume changes over time (monthly)
+
+
+📊 SEGMENT 50: Sent atleast 20 emails
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 81,592
+   • Campaigns: 2
+   • Avg per Campaign: 20,398
+   • MoM Change: 63.8%
+   • ⚠️ LOGIC CHANGE SUSPECTED: Avg sent changed by 22.8%
+   • Overall Growth: 63.8%
+
+
+
+
+   📊 SEGMENT 89: Opened but never clicked
+------------------------------------------------------------
+   • Latest Month: Nov 2025
+   • Total Sent: 46,104
+   • Campaigns: 2
+   • Avg per Campaign: 23,052
+   • MoM Change: -4.3%
+   • Overall Growth: -4.3%
+
+
+
+   📊 SEGMENT 92: Gaming Interest
+------------------------------------------------------------
+   • Latest Month: Nov 2025
+   • Total Sent: 15,355
+   • Campaigns: 1
+   • Avg per Campaign: 15,355
+   • MoM Change: -86.8%
+   • Overall Growth: -86.8%
+
+
+
+
+   📊 SEGMENT 94: DO NOT SEND GAMBLING
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 157,339
+   • Campaigns: 6
+   • Avg per Campaign: 26,223
+   • MoM Change: 127.8%
+   • Overall Growth: 1344.3%
+
+
+
+
+
+   📊 SEGMENT 97: Recent Registration + 1M
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 1,593,938
+   • Campaigns: 21
+   • Avg per Campaign: 39,848
+   • MoM Change: 34.5%
+   • ⚠️ LOGIC CHANGE SUSPECTED: Avg sent changed by 47.9%
+   • Overall Growth: 1331.2%
+
+
+
+
+   📊 SEGMENT 103: Clicked bulk_gaming send
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 312,716
+   • Campaigns: 11
+   • Avg per Campaign: 16,459
+   • MoM Change: 445.6%
+   • Overall Growth: 445.6%
+
+
+
+
+   📊 SEGMENT 139: 2-14 months registered clicked
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 130,403
+   • Campaigns: 2
+   • Avg per Campaign: 43,468
+   • MoM Change: 171.5%
+   • Overall Growth: 171.5%
+
+
+
+
+
+   📊 SEGMENT 144: Milka Clickers
+------------------------------------------------------------
+   • Latest Month: Nov 2025
+   • Total Sent: 25,252
+   • Campaigns: 1
+   • Avg per Campaign: 25,252
+   • MoM Change: -6.2%
+   • Overall Growth: -6.2%
+
+
+
+   📊 SEGMENT 150: 5 days recent engagement
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 969,988
+   • Campaigns: 19
+   • Avg per Campaign: 31,290
+   • MoM Change: 111.9%
+   • Overall Growth: 170.0%
+
+
+
+
+   📊 SEGMENT 161: 6 Month Clickers
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 375,032
+   • Campaigns: 4
+   • Avg per Campaign: 46,879
+   • MoM Change: 80.7%
+   • Overall Growth: 67.1%
+
+
+
+
+   📊 SEGMENT 169: Gaming Redirect Engaged
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 312,716
+   • Campaigns: 11
+   • Avg per Campaign: 16,459
+   • MoM Change: 445.6%
+   • Overall Growth: 445.6%
+
+
+
+
+   📊 SEGMENT 170: 9 months clickers
+------------------------------------------------------------
+   • Latest Month: Nov 2025
+   • Total Sent: 93,456
+   • Campaigns: 2
+   • Avg per Campaign: 46,728
+   • MoM Change: -44.7%
+   • Overall Growth: 52.7%
+
+
+
+   📊 SEGMENT 171: Visited Gaming Redirect
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 312,716
+   • Campaigns: 11
+   • Avg per Campaign: 16,459
+   • MoM Change: 330.3%
+   • Overall Growth: 168.2%
+
+
+
+
+
+   📊 SEGMENT 172: Clicked Past Month
+------------------------------------------------------------
+   • Latest Month: Dec 2025
+   • Total Sent: 219,236
+   • Campaigns: 5
+   • Avg per Campaign: 36,539
+   • MoM Change: 23.0%
+   • ⚠️ LOGIC CHANGE SUSPECTED: Avg sent changed by 43.5%
+   • Overall Growth: 1133.1%
+
+
+
+
+   📊 SEGMENT 173: Reg 7-14 clicked past month
+------------------------------------------------------------
+   • Latest Month: Oct 2025
+   • Total Sent: 67,413
+   • Campaigns: 2
+   • Avg per Campaign: 33,706
+   • MoM Change: 29.9%
+   • ⚠️ LOGIC CHANGE SUSPECTED: Avg sent changed by 29.9%
+   • Overall Growth: 29.9%

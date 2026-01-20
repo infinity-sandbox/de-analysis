@@ -1,0 +1,56 @@
+# syntax=docker/dockerfile:1
+
+# Use the specified Python version
+ARG PYTHON_VERSION=3.12.6
+FROM --platform=linux/amd64 python:${PYTHON_VERSION}-slim AS base
+
+# Install necessary build dependencies and unixODBC
+RUN apt-get update && \
+    apt-get install -y gcc python3-dev pkg-config libhdf5-dev default-libmysqlclient-dev \
+        libpq-dev libssl-dev libffi-dev unixodbc unixodbc-dev unzip odbcinst curl \
+        gnupg lsb-release sudo apt-transport-https ca-certificates libtool m4 libaio1 libaio-dev \
+        openssl wget netcat-openbsd libncurses5 libtinfo5 libnsl2 && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Prevents Python from writing pyc files.
+ENV PYTHONDONTWRITEBYTECODE=1
+
+# Keeps Python from buffering stdout and stderr
+ENV PYTHONUNBUFFERED=1
+
+# Set the working directory
+WORKDIR /backend
+
+# Change ownership of the /backend
+RUN chmod -R 755 /backend
+
+# Copy necessary files to the working directory
+COPY ./requirements.txt /backend/
+COPY ./setup.py /backend/
+COPY ./readme.md /backend/
+
+# Upgrade pip and install project dependencies
+RUN pip install --upgrade pip
+RUN pip install .
+
+COPY ./.env /backend/.env
+
+# Copy the application code to the working directory
+COPY ./ /backend
+
+RUN mkdir -p /backend/logs && \
+    chmod 755 /backend && \
+    chmod 777 /backend/logs
+
+    # Define environment variables
+ENV HOST="0.0.0.0"
+ENV PORT=8000
+
+# Expose the specified port
+EXPOSE ${PORT}
+
+# Set the entry point for the container
+ENTRYPOINT uvicorn app.app:app --host ${HOST} --port ${PORT}
+
+
