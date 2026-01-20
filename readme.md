@@ -16,5 +16,5 @@
 
 All related **sql query** and **code** can be found at the following locations:
 
-- 📂 [`backend/app/notebooks`](backend/app/notebooks)
 - 📂 [`backend/app/sql/commands/com/de/insight2`](backend/app/sql/commands/com/de/insight2)
+- 📂 [`backend/app/notebooks`](backend/app/notebooks)
